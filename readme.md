@@ -8,6 +8,14 @@ This is a simple School Management System built using Node.js and MySQL. It prov
 - Calculate and return the distance between a user's location and schools.
 - List all schools sorted by proximity to a given latitude and longitude.
 
+## API Endpoints
+
+| **Endpoint**        | **Method** | **Description**                             |
+|---------------------|------------|---------------------------------------------|
+| `/addSchool`        | `POST`     | Adds a new school if not already present.   |
+| `/listSchools`      | `POST`     | Lists schools sorted by proximity.          |
+
+
 ## Installation
 
 Follow these steps to get the project up and running on your local machine.
@@ -21,6 +29,14 @@ Before you start, ensure you have the following installed:
 
 ### Clone the Repository
 
-```bash
-git clone https://github.com/Arpreetkhare/school-management.git
-cd school-management
+  ```bash
+  git clone https://github.com/Arpreetkhare/school-management.git
+  cd school-management
+
+```
+### Run the Application 
+
+  ```bash
+  npm start
+
+
